@@ -44,7 +44,6 @@ def request_sanitized_value(prompt:str) -> float:
             return number
         except ValueError:
             print("Invalid input. please enter a number.")
-
 def main():
     
     print(f"===== Simple Calculator =====")
